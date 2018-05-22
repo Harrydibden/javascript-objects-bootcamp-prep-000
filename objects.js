@@ -3,7 +3,7 @@ var playlist = {
   takingBackSunday: "Where you want to be"
 }
 
-function updatePlaylist(obj, artist, song){
+function updatePlaylist(obj, artistName, songTitle){
   obj.artist = song;
   return obj;
 }
